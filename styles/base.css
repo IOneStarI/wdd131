@@ -1,0 +1,126 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+:root {
+    --main-collor: #003366;
+    --light-text-collor: white;
+    --highlighted-text:#f4d03f;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .highlighted {
+    color: var(--highlighted-text);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-link {
+    color: var(--light-text-collor);
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+
+  .nav-link:hover {
+    color: var(--highlighted-text)
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: 75% 25%;
+  }
+
+  .card-heder {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    border-radius: 5px;
+  }
+  
+  .card{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+
+  .about-me {
+    height: auto;
+    display: flex;
+    margin: 1rem auto 0;
+  }
+
+  .profile-picture {
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+.country-title {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+  .country {
+    display: flex;
+  }
+
+  .flag-picture {
+    width: 200px;
+    height: 150;
+    border-radius: 5px;
+  }
+  .country-title {
+    text-align: center;
+  }
+
+  .profile-text {
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .resources-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  
+  footer p {
+    margin: 0.5rem 0;
+  }
+  
