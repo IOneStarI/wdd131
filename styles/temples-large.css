@@ -1,0 +1,7 @@
+.temple-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+nav ul {
+    gap: 2rem;
+}
