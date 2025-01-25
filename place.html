@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Vladislav Didkovskiy place page">
+    <meta name="author" content="Vladislav Didkovskiy">
+    <title>WDD 131 - Place page Vladislav Didkovskiy</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-media.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Ukraine</h1>
+    </header>
+    <main>
+        <section id="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 603 628 km²</li>
+                <li>Population: 37million</li>
+                <li>Capital: Kiev</li>
+                <li>Currency: UAH</li>
+                <li>Time zone: UTC+2</li>
+                <li>Calling code: +380</li>
+                <li>Internet TLD: .ua</li>
+            </ul>
+        </section>
+        <section id="image">
+            <img src="images/place-desctop.avif" alt="Large Image">
+        </section>
+        <section id="weather">
+            <h2>Weather <span class="weather-icon"></span></h2>
+            <ul>
+                <li>Temperature: +6</li>
+                <li>Conditions: Cloudy</li>
+                <li>Wind: Value</li>
+                <li id="windchill"></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

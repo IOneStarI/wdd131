@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    main {
+        grid-template-areas: "image" "data" "weather";
+        grid-template-columns: 1fr;
+    }
+    #image img {
+        max-height: 300px;
+    }
+}
