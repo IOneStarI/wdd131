@@ -1,0 +1,18 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-collor: #003366;
+    --light-text-collor: white;
+    --highlighted-text: #f4d03f;
+}
+
+img {
+    max-width: 1000px;
+    height: auto;
+}
