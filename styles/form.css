@@ -1,0 +1,121 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-collor: #003366;
+    --light-text-collor: white;
+    --highlighted-text: #f4d03f;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.form-container {
+    background-color: #d1c7d0;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+h1 {
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    text-align: center;
+    padding: 15px;
+    margin: 0 0 20px 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.rating-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: var(--highlighted-text);
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #014788;
+    color: var(--highlighted-text);
+}
+
+.highlighted {
+    color: var(--highlighted-text);
+}
+
+footer {
+    background-color: var(--main-collor);
+    color: var(--light-text-collor);
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
