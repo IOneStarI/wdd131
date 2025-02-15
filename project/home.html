@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Home page Vladislav Didkovskiy final prodgect">
+    <meta name="author" content="Vladislav Didkovskiy">
+    <title>WDD 131 - Home page Vladislav Didkovskiy</title>
+    <link rel="stylesheet" href="/project/styles/home.css">
+    <script src="/project/scripts/project-script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/project/img/OPBNAX0.png" alt="Restaurant Logo">
+            <h1>Yapiko</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-list"><a href="/project/menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-list"><a href="/project/home.html" class="nav-link">Home</a></li>
+                <li class="nav-list"><a href="/project/about.html" class="nav-link">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="/project/img/pexels-ella-olsson-572949-1640774.webp" alt="Dish 1"></div>
+                <div class="slide"><img src="/project/img/pexels-ella-olsson-572949-1640777.webp" alt="Dish 2"></div>
+                <div class="slide"><img src="/project/img/pexels-ella-olsson-572949-3026808.webp" alt="Dish 3"></div>
+            </div>
+
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

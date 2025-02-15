@@ -1,0 +1,22 @@
+@media (min-width: 600px) {
+    .dish-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .dish-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Menu Vladislav Didkovskiy">
+    <meta name="author" content="Vladislav Didkovskiy">
+    <title>WDD 131 - Menu Vladislav Didkovskiy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/project/styles/about.css">
+    <link rel="stylesheet" href="/project/styles/mobile.css">
+    <script src="/project/scripts/project-script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/project/img/OPBNAX0.png" alt="Restaurant Logo">
+            <h1>Yapiko</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-list"><a href="/project/menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-list"><a href="/project/home.html" class="nav-link">Home</a></li>
+                <li class="nav-list"><a href="/project/about.html" class="nav-link">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p>Phone 1: +380675991720</p>
+                    <p>Phone 2: +380519292720</p>
+                    <p>Email: vladgreen.vg@gmail.com</p>
+                    <p>Address: Maidan Nezalezhnosti, 2, Kyiv, 02000</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4887632776504!2d30.520639476502627!3d50.45062257159227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50f8b30b23%3A0x2df47fd22bd18514!2sMaidan%20Nezalezhnosti%2C%202%2C%20Kyiv%2C%2002000!5e0!3m2!1sen!2sua!4v1733059524598!5m2!1sen!2sua"
+                        width="430" height="385" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="question-form">
+                    <h3>Have a Question?</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Placeholder">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Placeholder">
+
+                        <div class="radio-options">
+                            <label>
+                          General Inquiry 
+                      </label>
+                            <input type="radio" name="inquiry" value="general">
+                            <label>
+                          Reservation Question
+                      </label>
+                            <input type="radio" name="inquiry" value="reservation">
+                            <label>
+                          Website Suggestion 
+                      </label>
+                            <input type="radio" name="inquiry" value="suggestion">
+                        </div>
+
+                        <textarea placeholder="Type here"></textarea>
+
+                        <label>
+                     Please subscribe me to the monthly newsletter
+                  </label>
+                        <input type="checkbox">
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Vladislav Didkovskiy Ukraine</p>
+        <p class="highlighted">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
